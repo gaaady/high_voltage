@@ -10,3 +10,7 @@ rails_versions.each do |version|
     gem "rails", "~> #{version}.0"
   end
 end
+
+appraise "rails_6.0" do
+  gem "rails", "~> 6.0.0.rc1"
+end
